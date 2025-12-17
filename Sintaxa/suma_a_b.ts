@@ -2,7 +2,7 @@ function sum(a: number, b: number): number {
 	return a + b;
 }
 
-let a = parseInt(process.env[1]);
-let b = parseInt(process.env[2]);
+let a = parseInt(process.argv[2]);
+let b = parseInt(process.argv[3]);
 
 console.log(sum(a, b));
