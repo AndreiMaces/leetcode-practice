@@ -18,4 +18,4 @@ function main() {
   console.log(longestCommonPrefix(strs));
 }
 
-main();
+main();`
